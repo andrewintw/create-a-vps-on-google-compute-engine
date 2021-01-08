@@ -14,7 +14,7 @@ Amazom AWS 和 Google Cloud Platform (GCP) 都有提供這樣的服務，最後�
 
 ## 關於 Google Compute Engine
 
-你只要有 gmail 帳號，你就可以用這個帳號進入 GCP 的主控台 -- https://console.cloud.google.com/
+你只要有 gmail 帳號，你就可以用這個帳號進入 [GCP 的主控台](https://console.cloud.google.com/)操作
 
 你可以把 GCP 想像為一個提供各種服務的平台商，你可以在 GCP 上購買各種不同的服務，我們今天要用的 VM 就是隸屬於 "[Compute Engine](https://console.cloud.google.com/compute) (GCE)" 的服務。
 
