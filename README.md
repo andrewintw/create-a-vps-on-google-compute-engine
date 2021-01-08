@@ -2,7 +2,6 @@
 
 Create a free micro VPS on Google Compute Engine
 
----
 
 ## 前言
 
