@@ -134,7 +134,7 @@ VM 啟用後，你可以看到 GCE 會給你的 VM 配一個 public IP，VM 預�
 
 ![](images/GCE-15.png)
 
-如下圖所示。這邊注意一點，你的 pub-key 後面會帶 host 主機的使用者名稱 (ex: andrew)，最終當你連線 GCE 的 VM 時，需要使用這個名稱，而不是 gmail 的 username。這點跟 Cloud Shell 不太一樣。後面的示範會說明。
+如下圖所示。這邊注意一點，你的 pub-key 後面會帶 host 主機的使用者名稱 (ex: andrew)，最終當你連線 GCE 的 VM 時，需要使用這個名稱，而不是 gmail 的 username。後面的示範會說明。
 
 ![](images/GCE-16.png)
 
@@ -221,9 +221,9 @@ GCE 的頁面還提供了一個稱為 Cloud Shell 的 CLI 環境。
 ![](images/GCE-22.png)
 
 
-我原本以為 Cloud Shell 是直接連線到你建立的 VM，但似乎不是，它像是一個獨立運作的 VM。
+我原本以為 Cloud Shell 會連線到你所建立的 VM 但似乎不是，它像是一個獨立運作的 VM。
 
-老實說我不是很清楚為何需要 Cloud Shell，我現在唯一能想像的使用時機就是當你不想安裝 gcloud 在你的主機上，你又想透過 gcloud 操作 GCP 時，就可以使用這個環境。
+老實說我不是很清楚為何需要 Cloud Shell，我能想像的使用時機是當你不想安裝 gcloud 在你的主機上，又想透過 gcloud 操作 GCP 時，就可以使用這個環境。
 
 
 ## 關於收費問題
