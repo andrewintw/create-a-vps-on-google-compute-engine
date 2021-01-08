@@ -121,24 +121,7 @@ VM 啟用後，你可以看到 GCE 會給你的 VM 配一個 public IP，VM 預�
 ![](images/GCE-19.png)
 
 
-## 使用 Cloud Shell
-
-一旦 VM 被建立了，通常我們會希望能透過 shell 操作主機，最簡單的方式就是使用 GCE 頁面所提供的 Cloud Shell。
-
-它是一個將 shell 畫面嵌入網頁的 CLI 介面。點選選單上的圖示啟用即可
-
-![](images/GCE-20.png)
-
-你會馬上進入一個以你 gmail 帳號為 username 的家目錄下。
-
-![](images/GCE-21.png)
-
-你可以使用 sudo 操作指令，甚至是以 apt 安裝套件。
-
-![](images/GCE-22.png)
-
-
-但要使用 Cloud Shell 必須登入 GCE 頁面後開啟網頁，我覺得有點麻煩。我還是比較習慣使用 host 主機上的 ssh 連線軟體。如果你想要使用 ssh 連線，你首先需要做的事情就是設定金鑰。
+一旦 VM 被建立了，通常我們會希望能透過 shell 操作主機，如果你想要使用 ssh 連線，你首先需要做的事情就是設定金鑰。
 
 
 ## 設定金鑰
