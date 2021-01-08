@@ -204,6 +204,28 @@ VM 啟用後，你可以看到 GCE 會給你的 VM 配一個 public IP，VM 預�
 ![](images/GCE-30.png)
 
 
+## 使用 Cloud Shell
+
+GCE 的頁面還提供了一個稱為 Cloud Shell 的 CLI 環境。
+
+它是一個將 shell 畫面嵌入網頁的 CLI 介面。點選選單上的圖示啟用即可
+
+![](images/GCE-20.png)
+
+你會馬上進入一個以你 gmail 帳號為 username 的家目錄下。
+
+![](images/GCE-21.png)
+
+你可以使用 sudo 操作指令，甚至是以 apt 安裝套件。
+
+![](images/GCE-22.png)
+
+
+我原本以為 Cloud Shell 是直接連線到你建立的 VM，但似乎不是，它像是一個獨立運作的 VM。
+
+老實說我不是很清楚為何需要 Cloud Shell，我現在唯一能想像的使用時機就是當你不想安裝 gcloud 在你的主機上，你又想透過 gcloud 操作 GCP 時，就可以使用這個環境。
+
+
 ## 關於收費問題
 
 啟用 GCP 的時候，Google 會給你一個免費的額度。建議你可以在使用一段時間後進入 "帳單" 的頁面看看這個額度有沒有被扣款。藉此確保你一直都在符合免費的限制下使用 GCE。
